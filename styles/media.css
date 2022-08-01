@@ -1,0 +1,403 @@
+@media (max-width: 1260px) {
+    .cardimg  {
+        width: 360px;
+    }
+
+    .logo {
+        font-size: 13px;
+    }
+
+    .header-navigation, .tel, .header_button {
+        font-size: 9px;
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+
+    
+   
+    .header {
+        height: 57px;
+        background-color: #252525;
+        width: 100vw;
+    }
+
+    .header-content {
+        height: 57px;
+    }
+
+    .logo {
+        width: 176px;
+        height: 10px;
+        font-size: 11px;
+    }
+
+    .button { 
+        width: 338px;
+        height: 51px;
+        margin-left: 18px;
+    }
+
+    .tel {
+        text-decoration: none;
+        margin: 0 auto;
+        font-size: 11px;
+    }
+    .header-navigation, .header_button, .arrows_svg, .projects_bar {
+        display: none;
+    }
+    .hero {
+        background-image: url(../images/image1_mobile.jpg);
+        height: 476px;
+    }
+
+    .hero-container {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .title {
+        font-size: 23px;
+        margin: 0px 18px 16px 18px;
+        width: 339px;
+        height: 60px;
+        line-height: 31px;
+    }
+
+    .hero-p {
+        font-size: 14px;
+        width: 339px;
+        height: 94px;
+        margin: 0 18px 32px 18px;
+        line-height: 19px;
+    }
+
+    .btn_calculate {
+        margin: 0 17px 26px 18px;
+    }
+
+    .submit_mobile {
+        display: none;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        height: 780px;
+        padding: 0;
+        background-color: #252525;
+    }
+
+    .design_example_img {
+        display: none;
+    }
+    
+    .mobile_projects_slider {
+        display: flex;
+        width: 340px;
+        height: 241px;
+        background-image: url(/images/slider.jpg);
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        margin-top: 36px;
+    }
+
+    .arrow {
+        margin: 0 10px 0;
+    }
+
+    .projects_container {
+        margin: 0 auto;
+
+    }
+
+    .projects_h2 {
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .projects_side p {
+        text-align: center;
+        width: 311px;
+        height: 86px;
+        font-size: 11px;
+        margin: 0 auto;
+    }
+
+    .projects_param_item_h3 {
+        font-size: 14px;
+        margin: 11px 0px;
+    }
+
+    .projects_param_item span {
+        font-size: 11px;
+    }
+
+    .control {
+        margin: 0 auto;
+        background-color: #252525;
+        height: 777px;
+    }
+
+    .onlinecontrol {
+        margin: 0 auto;
+    }
+
+    .video {
+        width: 340px;
+        height: 207px;
+    }
+
+    .playimg {
+        position: absolute;
+        top: 103px;
+        left: 135px;
+        width: 74px;
+        height: 74px;
+    }
+
+    .controlimg {
+        width: 340px;
+        height: 207px;
+    }
+
+    .control_desc {
+        font-size: 11px;
+        text-align: center;
+        width: 340px;
+        height: 106px;
+        color: white;
+        line-height: 19px;
+    }
+
+    .inputsbtn {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        color: white;
+    }
+
+    .inputsbtn a {
+        width: 338px;
+        height: 311px;
+        
+    }
+
+    .name-phone_form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 340px;
+        height: 311px;
+        font-size: 14px;
+    }
+
+    .checkbox_label {
+        color: white;
+      }
+
+
+    .submitbtn {
+        width: 338px;
+        height: 51px;
+        margin-left: 3px;
+        margin-top: 100px;
+    }
+
+    .first_label {
+        margin: 34px 0 26px 0;
+        width: 340px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .input {
+    background-color: #252525;    
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 340px;
+    }
+
+    .first_label .input::placeholder {
+        color: #FFFFFF;
+    }
+
+
+    .first-checkbox {
+        position: relative;
+        padding-top: 200px;
+        text-align: left;
+        
+    }
+
+    .repairtypes {
+        margin-top: 50px;
+        padding-bottom: 150px;
+        
+    }
+
+    .rt_gallery {
+        display: block;
+        height: 2000px;
+    }
+
+    .cardimg {
+        width: 340px;
+    }
+
+    .rt_card {
+        margin-top: 70px;
+        width: 340px;
+    }
+
+    .rt_card_text {
+        margin-left: 0;
+    }
+
+    .rt_card_text h4 {
+        margin-left: 24px;
+        margin-bottom: 6px;
+        padding-top: 21px;
+    }
+
+    .mobile_block {
+        display: block;
+        position: relative;
+        top: 34px;
+        z-index: 3;
+        
+    }
+
+    .mobile_realize_h3 {
+    display: block;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 70px;
+
+    }
+    
+    .mobile_realize_slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(/images/realizeimg0.jpg);
+        background-size: cover;
+        width: 340px;
+        height: 242px;
+      
+    }
+
+    .endmap {
+        background-image: none;
+        background-color: #252525; 
+        height: 1180px;
+
+    }
+
+    .endmap_container {
+        padding: 0;
+    }
+    
+    .endform {
+        position: static;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        margin-top: 0;
+        height: 550px;
+        width: 375px;
+        background-color: #252525;
+    }
+
+    .form_content {
+        margin: 0 auto;
+        padding-top: 160px;
+        height: 560px;
+
+    }
+
+    .questions_subtitle {
+        margin-left: 59px;
+        margin-bottom: 0;
+        text-align: center;
+        width: 257px;
+        height: 26px;
+    }
+
+    .name-phone-thirdform {
+        flex-direction: column;
+    }
+
+    .third_label {
+        margin-left: 18px;
+        margin-top: 63px;
+    }
+
+    .third_label .input {
+        background-color: #252525;        
+    }
+
+    .third_question {
+        margin-left: 18px;
+    }
+
+    .third-checkbox {
+        margin-top: 20px;
+        margin-left: 18px;
+        width: 285px;
+        height: 18px;
+
+    }
+
+    .googlemap_mobile {
+        display: flex;
+        width: 340px;
+        height: 255px;
+        margin-top: 160px;
+        margin-left: 18px;
+    }
+
+    .address_h3 {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    .br_pc {
+        display: none;
+    }
+
+    .br_mobile {
+        display: block;
+    }
+
+    .img_contact {
+        width: 98px;
+        height: 39px;
+    }
+
+    .img_ico {
+        width: 39px;
+        height: 39px;
+    }
+
+     .request_blocks, .realize, .piggy, .clients, .googlemap, .endmap_overlay,  .footer {
+        display: none;
+    }
+
+}
